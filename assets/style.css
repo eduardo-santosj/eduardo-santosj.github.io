@@ -17,7 +17,8 @@ body {
 
 h2, h3, img, a {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 img {
@@ -62,3 +63,8 @@ a {
 }
 
 
+@media screen and (max-width: 768px){
+    img {
+        width: 70%;
+    }
+}
